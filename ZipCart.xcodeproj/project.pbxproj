@@ -45,6 +45,66 @@
 			path = ZipCartUITests;
 			sourceTree = "<group>";
 		};
+		A2ADB2E02FD4845600878B7F /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A2ADB2E22FD4847100878B7F /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2ADB2E42FD4848200878B7F /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A2ADB2E52FD484A700878B7F /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A2ADB2E72FD484BC00878B7F /* Managers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A2ADB2E82FD484CD00878B7F /* Repositories */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		A2ADB2EA2FD4852E00878B7F /* Persistence */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		A2ADB2EB2FD4854700878B7F /* Components */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A2ADB2EC2FD4855300878B7F /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2ADB2EE2FD4856400878B7F /* Utilities */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A2ADB2F12FD488EE00878B7F /* Navigation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		A2ADB2FF2FD490BD00878B7F /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Core;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +135,22 @@
 		A2ADB29D2FD482E600878B7F = {
 			isa = PBXGroup;
 			children = (
+				A2ADB2FF2FD490BD00878B7F /* Core */,
+				A2ADB2EC2FD4855300878B7F /* Resources */,
+				A2ADB2EB2FD4854700878B7F /* Components */,
+				A2ADB2E82FD484CD00878B7F /* Repositories */,
+				A2ADB2E52FD484A700878B7F /* Services */,
+				A2ADB2E22FD4847100878B7F /* Views */,
+				A2ADB2E02FD4845600878B7F /* Models */,
 				A2ADB2A82FD482E600878B7F /* ZipCart */,
 				A2ADB2B82FD482E700878B7F /* ZipCartTests */,
 				A2ADB2C22FD482E700878B7F /* ZipCartUITests */,
 				A2ADB2A72FD482E600878B7F /* Products */,
+				A2ADB2E42FD4848200878B7F /* ViewModels */,
+				A2ADB2E72FD484BC00878B7F /* Managers */,
+				A2ADB2EA2FD4852E00878B7F /* Persistence */,
+				A2ADB2EE2FD4856400878B7F /* Utilities */,
+				A2ADB2F12FD488EE00878B7F /* Navigation */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +181,18 @@
 			);
 			fileSystemSynchronizedGroups = (
 				A2ADB2A82FD482E600878B7F /* ZipCart */,
+				A2ADB2E02FD4845600878B7F /* Models */,
+				A2ADB2E22FD4847100878B7F /* Views */,
+				A2ADB2E42FD4848200878B7F /* ViewModels */,
+				A2ADB2E52FD484A700878B7F /* Services */,
+				A2ADB2E72FD484BC00878B7F /* Managers */,
+				A2ADB2E82FD484CD00878B7F /* Repositories */,
+				A2ADB2EA2FD4852E00878B7F /* Persistence */,
+				A2ADB2EB2FD4854700878B7F /* Components */,
+				A2ADB2EC2FD4855300878B7F /* Resources */,
+				A2ADB2EE2FD4856400878B7F /* Utilities */,
+				A2ADB2F12FD488EE00878B7F /* Navigation */,
+				A2ADB2FF2FD490BD00878B7F /* Core */,
 			);
 			name = ZipCart;
 			packageProductDependencies = (
